@@ -119,13 +119,13 @@ Created autonomous robotic snake using **CNNs, kinematics, and LiDAR** for detec
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,flask,react,nextjs,nodejs,typescript,javascript,tailwind,mongodb,postgres,redis,docker,kubernetes&perline=16" />
+    <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,flask,react,nextjs,nodejs,typescript,javascript,tailwind,mongodb,postgres,redis,docker,kubernetes&theme=light&perline=16" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,gcp,firebase,github,git,linux,vscode,jupyter,opencv,sklearn,selenium,postman,figma,latex,c,cpp,java,mysql,express&perline=16" />
+    <img src="https://skillicons.dev/icons?i=aws,gcp,firebase,github,git,linux,vscode,jupyter,opencv,sklearn,selenium,postman,figma,latex,c,cpp,java,mysql,express&theme=light&perline=16" />
   </a>
 </p>
 
