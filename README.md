@@ -194,30 +194,34 @@ Created autonomous robotic snake using **CNNs, kinematics, and LiDAR** for detec
 
 ---
 
-## 🏆 GitHub Trophies
+<h2 align="center">🏆 GitHub Trophies</h2>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Harjotraith04&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Harjotraith04&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
 </p>
 
 ---
 
-## 📈 Contribution Activity
+<h2 align="center">📈 Contribution Activity</h2>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Harjotraith04&theme=tokyo-night&hide_border=true&area=true" />
+  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Harjotraith04&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
 </p>
 
 ---
 
-## 🐍 Contribution Snake
+<h2 align="center">🐍 Contribution Snake</h2>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Harjotraith04/Harjotraith04/blob/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Harjotraith04/Harjotraith04/blob/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://github.com/Harjotraith04/Harjotraith04/blob/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Harjotraith04/Harjotraith04/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Harjotraith04/Harjotraith04/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Harjotraith04/Harjotraith04/output/github-contribution-grid-snake.svg">
   </picture>
+</p>
+
+<p align="center">
+  <i>⚠️ Snake animation will appear after the first GitHub Actions workflow run completes</i>
 </p>
 
 ---
