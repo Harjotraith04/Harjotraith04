@@ -220,9 +220,7 @@ Created autonomous robotic snake using **CNNs, kinematics, and LiDAR** for detec
   </picture>
 </p>
 
-<p align="center">
-  <i>⚠️ Snake animation will appear after the first GitHub Actions workflow run completes</i>
-</p>
+
 
 ---
 
