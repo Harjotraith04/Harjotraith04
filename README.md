@@ -88,7 +88,7 @@ Hi, I'm **Harjot Singh Raith**, an AI and Data Science undergraduate at **NMIMS 
 - Implemented **RAG system** for intelligent maritime data retrieval and analysis
 - **Tech Stack**: Flask, React, FastAPI, Docker, Gemini API, PostgreSQL
 
-### 📅 [TimeTableAI] (https://github.com/Harjotraith04/Time_Table_Generation_AI_Tool) - Intelligent TimeTable Scheduling & Optimization Platform *(Capstone Project)*
+### 📅 [TimeTableAI](https://github.com/Harjotraith04/Time_Table_Generation_AI_Tool) - Intelligent TimeTable Scheduling & Optimization Platform *(Capstone Project)*
 **Impact**: Automated timetable generation reducing manual scheduling time by 90%
 - Engineered **constraint optimization algorithms** handling 1000+ scheduling variables
 - Built **RAG-powered system** for instant retrieval of scheduling policies and rules
@@ -96,7 +96,7 @@ Hi, I'm **Harjot Singh Raith**, an AI and Data Science undergraduate at **NMIMS 
 - Integrated **LLM capabilities** for natural language scheduling requests
 - **Tech Stack**: FastAPI, MongoDB, React, Vite, TailwindCSS, Docker, Gemini AI
 
-### 🐍 [BIROS](https://github.com/Harjotraith04/Robotic-Snake) - Bio-Inspired Robotic Snake*(Gujarat Robofest'25 - Winner)*
+### 🐍 [BIROS](https://github.com/Harjotraith04/Robotic-Snake) - Bio-Inspired Robotic Snake *(Gujarat Robofest'25 - Winner)*
 **Impact**: Autonomous search & rescue robot for confined space exploration
 - Designed **serpentine robot** using inverse kinematics for realistic snake-like movement
 - Implemented **CNN-based object detection** for autonomous navigation in tight spaces
