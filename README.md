@@ -252,7 +252,7 @@ Hi, I'm **Harjot Singh Raith**, an AI and Data Science undergraduate at **NMIMS 
 <h2 align="center">🏆 GitHub Trophies</h2>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Harjotraith04&theme=tokyonight&no-frame=false&no-bg=false&margin-w=15&margin-h=15&column=6" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Harjotraith04&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
 </p>
 
 ---
