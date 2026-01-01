@@ -73,14 +73,14 @@ Hi, I'm **Harjot Singh Raith**, an AI and Data Science undergraduate at **NMIMS 
 
 ## 💼 Featured Projects
 
-### 🔴 [LiveWire](https://github.com/Harjotraith04/LiveWire) - Real-time Collaborative Code Editor *(AWS Global Vibe - Winner)*
+### 🔴 [LiveWire](https://github.com/Harjotraith04/LiveWire) - Real-time Collaborative Code Editor *(AWS Global Vibe )*
 **Impact**: Real-time code compilation platform with AI-powered assistance
 - Built **collaborative IDE** supporting 10+ programming languages with real-time synchronization
 - Integrated **Gemini AI** for intelligent code suggestions and debugging assistance
 - Implemented **WebSocket architecture** enabling seamless multi-user collaboration
 - **Tech Stack**: Monaco Editor, Socket.IO, Express.js, MongoDB, Clerk Auth, Vercel
 
-### 🤖 [ArgoMind AI](https://github.com/Harjotraith04/ArgoMind-AI) - Maritime Intelligence System *(SIIT'25 - Runner Up)*
+### 🤖 [ArgoMind AI](https://github.com/Harjotraith04/ArgoMind-AI) - Maritime Intelligence System *(SIH'25 - Runner Up)*
 **Impact**: AI-powered ship targeting and ocean disaster prediction system
 - Developed **automated ship targeting** system processing real-time Argo oceanographic data
 - Built **ML models** for ocean disaster prediction with 85%+ accuracy
@@ -88,7 +88,7 @@ Hi, I'm **Harjot Singh Raith**, an AI and Data Science undergraduate at **NMIMS 
 - Implemented **RAG system** for intelligent maritime data retrieval and analysis
 - **Tech Stack**: Flask, React, FastAPI, Docker, Gemini API, PostgreSQL
 
-### 📅 TimeTableAI & Almanac AI - Intelligent Scheduling Platform *(Capstone Project)*
+### 📅 [TimeTableAI] (https://github.com/Harjotraith04/Time_Table_Generation_AI_Tool) - Intelligent TimeTable Scheduling & Optimization Platform *(Capstone Project)*
 **Impact**: Automated timetable generation reducing manual scheduling time by 90%
 - Engineered **constraint optimization algorithms** handling 1000+ scheduling variables
 - Built **RAG-powered system** for instant retrieval of scheduling policies and rules
@@ -96,7 +96,7 @@ Hi, I'm **Harjot Singh Raith**, an AI and Data Science undergraduate at **NMIMS 
 - Integrated **LLM capabilities** for natural language scheduling requests
 - **Tech Stack**: FastAPI, MongoDB, React, Vite, TailwindCSS, Docker, Gemini AI
 
-### 🐍 Blaze: Bio-Inspired Robotic Snake *(Gujarat Robofest'25 - Winner)*
+### 🐍 [BIROS](https://github.com/Harjotraith04/Robotic-Snake) - Bio-Inspired Robotic Snake*(Gujarat Robofest'25 - Winner)*
 **Impact**: Autonomous search & rescue robot for confined space exploration
 - Designed **serpentine robot** using inverse kinematics for realistic snake-like movement
 - Implemented **CNN-based object detection** for autonomous navigation in tight spaces
@@ -252,7 +252,7 @@ Hi, I'm **Harjot Singh Raith**, an AI and Data Science undergraduate at **NMIMS 
 <h2 align="center">🏆 GitHub Trophies</h2>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Harjotraith04&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Harjotraith04&theme=tokyonight&no-frame=false&no-bg=false&margin-w=15&margin-h=15&column=6" alt="GitHub Trophies" />
 </p>
 
 ---
