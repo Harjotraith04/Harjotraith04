@@ -1,0 +1,621 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=0.5 cm, % seperation between body and page edge from the top
+    bottom=0.5 cm, % seperation between body and page edge from the bottom
+    left=0.7 cm, % seperation between body and page edge from the left
+    right=0.7 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 79, 144} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={Harjot Singh Raith's CV},
+    pdfauthor={Harjot Singh Raith},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    % \usepackage[T1]{fontenc} % this breaks sb2nov
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+
+
+% Some settings:
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0cm} % set column seperation
+\makeatletter
+
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.1 cm
+}{
+    % bottom space:
+    0.1 cm
+} % section title spacing
+
+\renewcommand\labelitemi{$\circ$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.05 cm,
+        parsep=0 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0.2 cm + 0.00001 cm
+    }{
+        0.2 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 5.0 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+        \small\color{gray}\textit{}\hspace{\widthof{}}
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% Comment out this line to remove arrows:
+% \renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
+
+\hypersetup{
+    pdfborder = {0 0 0},          % removes border around all links
+    colorlinks = true,            % uses colored text instead of boxes
+    linkcolor = blue!100!black,    % darker blue
+    urlcolor  = blue!100!black,    % darker blue
+    citecolor = blue!100!black,    % darker blue
+    filecolor = blue!100!black     % darker blue
+}
+
+
+
+\begin{document}
+    % Slightly increase base font size for content
+    \fontsize{10.5pt}{12.5pt}\selectfont
+    
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{}
+
+   \placelastupdatedtext
+    \begin{header}
+    \textbf{\fontsize{26 pt}{26 pt}\selectfont Harjot Singh Raith}
+    
+    \vspace{0.15 cm}
+    
+    \normalsize
+    \mbox{\textbf{\color{black}\footnotesize\faMapMarker*}\hspace*{0.08cm}Thane}%
+    \kern 0.25 cm%
+    \textbf{\textbar}%
+    \kern 0.25 cm%
+    \mbox{\hrefWithoutArrow{mailto:harjotraith47@gmail.com}{\textbf{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.08cm}harjotraith47@gmail.com}}}%
+    \kern 0.25 cm%
+    \textbf{\textbar}%
+    \kern 0.25 cm%
+    \mbox{\hrefWithoutArrow{https://www.harjot.info/}{\textbf{\color{black}{\footnotesize\faGlobe}\hspace{0.08cm}harjot.info}}}%
+    \kern 0.25 cm%
+    \textbf{\textbar}%
+    \kern 0.25 cm%
+    \mbox{\hrefWithoutArrow{tel:+91-9321642540}{\textbf{\color{black}{\footnotesize\faPhone*}\hspace*{0.08cm}+91-9321642540}}}%
+    \kern 0.25 cm%
+    \textbf{\textbar}%
+    \kern 0.25 cm%
+    \mbox{\hrefWithoutArrow{https://github.com/Harjotraith04}{\textbf{\color{black}{\footnotesize\faGithub}\hspace*{0.08cm}Harjotraith04}}}%
+    \kern 0.25 cm%
+    \textbf{\textbar}%
+    \kern 0.25 cm%
+    \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/harjot-singh-raith-779a7028b}{\textbf{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.08cm}LinkedIn}}}%
+\end{header}
+
+
+
+    \section{\href{https://www.harjot.info/\#Education}{EDUCATION}}
+
+\begin{twocolentry}{
+             
+\textbf{July 2022 – April 2026} \\ \textbf{CGPA: 3.2/4.0}}
+   \textbf{Narsee Monjee Institute of Management and Studies(NMIMS), Navi Mumbai} \\
+   \textit{B.Tech in Artificial Intelligence and Data Science}
+\end{twocolentry}    
+       
+
+\begin{twocolentry}{
+             
+\textbf{June 2020 – May 2022} \\ \textbf{Grade (12\textsuperscript{th}): 85.83\%}}
+   \textbf{Shubham Raje Junior College, Thane} \\
+   \textit{Maharashtra State Board of Secondary and Higher Secondary Education, Science}
+\end{twocolentry}
+
+\begin{twocolentry}{
+             
+\textbf{May 2015 – April 2020} \\ \textbf{Grade (10\textsuperscript{th}): 90.40\%}}
+   \textbf{New Horizon Scholars School, Thane} \\
+   \textit{Central Board of Secondary Education (CBSE)}
+\end{twocolentry}
+
+  
+    \section{\href{https://www.harjot.info/\#Experience}{RESEARCH \& WORK EXPERIENCE}}
+
+
+    
+       \begin{twocolentry}{
+        \textbf{Dec 2025 – Present}
+        
+        \textbf{Remote}    
+      }
+    \textbf{AI Backend Engineer (Intern)} 
+            
+            \textit{Paloma POS, USA}
+\end{twocolentry}
+
+\vspace{0.10 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Designed and implemented end-to-end production-grade \textbf{RAG pipelines} using Dify workflows, integrated with a centralized \textbf{AI Gateway (Golang)}; implemented low-latency, \textbf{scalable semantic search} using \textbf{OpenAI embeddings} and \textbf{Qdrant}, managing large-scale vector data and retrieval.
+
+        \item Designed robust, \textbf{multi-tenant knowledge base ingestion} and AI data infrastructure, including automated web scraping, document chunking, embedding lifecycle management, and secure data isolation.
+
+    \end{highlights}
+\end{onecolentry}
+
+        
+        \vspace{0.1 cm}
+
+        \begin{twocolentry}{
+         \textbf{May 2025 – July 2025}
+        \textbf{IIT Bombay, India}    
+            
+       }
+    \textbf{e-Yantra Research Intern at IIT Bombay} 
+            
+            \textit{Embedded Real-Time Systems Laboratory (eRTS Lab), IIT Bombay}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+    \begin{highlights}
+        \item Developed a \textbf{full-stack AI-driven Thematic analysis platform} for multi-format document processing with automated inductive and deductive coding. Built a \textbf{FastAPI--PostgreSQL backend} integrated with \textbf{LLM-based agents} to generate codes, themes, and structured research reports.
+        \item Designed a \textbf{React/MUI frontend} with interactive visualizations, including \textbf{Sankey diagrams}, delivering an end-to-end \textbf{Qualitative Research tool }for accelerated insight extraction.
+    \end{highlights}
+\end{onecolentry}
+
+
+         \vspace{0.1 cm}
+       
+        \begin{twocolentry}{
+        \textbf{May 2024 – July 2024}
+        \textbf{IIT Bombay, India}    
+            }
+    \textbf{e-Yantra Research Intern at IIT Bombay} \hspace{0 em} \href{https://drive.google.com/file/d/1ynuYG4gYFt-YiOApBXfypSoxRymzO6dS/view?usp=sharing}{Certificate}
+            
+            \textit{Embedded Real-Time Systems Laboratory (eRTS Lab), IIT Bombay}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+    \begin{highlights}
+        \item Analyzed large-scale user interaction logs using \textbf{Python}, leveraging \textbf{Google OCR} for video log generation and \textbf{CNNs} to detect and filter low-quality videos.
+        \item Collected, cleaned, and integrated log data via \textbf{REST APIs} from a \textbf{Laravel-based platform} to measure scaffold availability and user dwell time.
+        \item Applied \textbf{data visualization and behavioral analytics} to optimize scaffolding and user engagement using clustering, heatmaps, sequence analysis, and predictive modeling.
+    \end{highlights}
+\end{onecolentry}
+
+     
+
+       
+
+   \section{\href{https://www.harjot.info/\#Publications}{RESEARCH PUBLICATION}}
+       
+\begin{samepage}
+    \begin{twocolentry}{
+        \href{https://link.springer.com/chapter/10.1007/978-3-031-84391-4_11}{Research Paper Link}}
+        \textbf{Enhancing and analyzing log generation for Collaborative Problem-Solving activities: Video analysis and OCR techniques} | Published in Annual ACM India Compute Conference (Compute 2024), CCIS vol. 2400, Springer Nature.
+    \end{twocolentry}
+    
+    \vspace{0.05 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Suprabha Jadhav, Parth Jain, \textbf{\textit{Harjot Singh Raith}}, Sridhar Iyer, Kavi Arya 
+        \end{highlights}
+    \end{onecolentry}
+    
+    \vspace{0.2 cm}
+    
+    \begin{twocolentry}{
+        \href{https://drive.google.com/file/d/1OGv0QIKzG9IgbJINtoNc8RhLQ6HJT8bL/view?usp=drive_link}{Paper Certificate}}
+        \textbf{YTubeRAG: Leveraging YouTube Content for Enhanced LLM Training with Optimized Vector Space Retrieval} | Presented in NTAI 2025, CRC Press (Taylor \& Francis Group), Scopus-indexed international conference, 2025.
+    \end{twocolentry}
+    
+    \vspace{0.05 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item \textbf{\textit{Harjot Singh Raith}}, Kartikeya Mudliyar, Ishika Mohan, Aditya Kasar, Sakshi Indolia 
+        \end{highlights}
+    \end{onecolentry}
+    
+    \vspace{0.2 cm}
+    
+    \begin{twocolentry}{
+        \textbf{Accepted}}
+        \textbf{AI-Driven Timetable Generation and Optimization using Constraint-Based Scheduling} | IEEE Conference Proceedings, ICESIC (International Conference on Emerging Systems and Intelligent Computing), 2026.
+    \end{twocolentry}
+    
+    \vspace{0.05 cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item \textbf{\textit{Harjot Singh Raith}}, Kartikeya Mudliyar, Toral Shah 
+        \end{highlights}
+    \end{onecolentry}
+    
+    \vspace{0.10 cm}
+\end{samepage}
+
+
+  \section{\href{https://www.harjot.info/\#Projects}{PROJECTS}}
+
+\begin{twocolentry}{
+    \textbf{(AWS Global Vibe)}
+}
+    \textbf{LiveWire: Real-time code compiler}~
+    \faGithub~\href{https://github.com/Harjotraith04/LiveWire}{Github}~%
+    \faGlobe~\href{https://live-wire-cn.vercel.app/}{Website}~%
+    \faYoutube~\href{https://www.youtube.com/watch?v=NBiqMB7ju38}{Youtube}
+\end{twocolentry}
+
+\vspace{0.10 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Built a real-time code-compiler platform for developers using Monaco, WebSockets, and Gemini AI.
+        \item Tools Used: TypeScript, Vite, Tailwind CSS, Monaco Editor, Socket.IO, Express, Node.js, CodeMirror, Vercel, Railway.
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2 cm}
+
+\begin{twocolentry}{
+    \textbf{(SIH'25)}
+}
+    \textbf{ArgoMindAI: Argo Float Dashboard \& Mapbot}~
+    \faGithub~\href{https://github.com/Harjotraith04/Argo_Mind_SIH}{Github}~%
+    \faGlobe~\href{https://argo-mind-sih.vercel.app}{Website}~%
+    \faYoutube~\href{https://youtu.be/STzxNc0rvqY?si=Qd_6mYhq0xFp1jU4}{Youtube}
+\end{twocolentry}
+
+\vspace{0.10 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Developed an automated pipeline to ingest FTP raw files, store them in S3, and generate a sequential schema for real-time dashboards and a map-based RAG system using Argo data with ML-driven ocean disaster predictions.
+        \item Tools Used: React, Python (UV), FastAPI, Xarray, Tailwind CSS, Leaflet.js, AWS S3, AlloyDB, Docker, Gemini API.
+    \end{highlights}
+\end{onecolentry} 
+\vspace{0.2 cm}
+
+\begin{twocolentry}{
+    \textbf{(Capstone Project)}
+}
+    \textbf{AlmanacAI: Timetable generation \& optimization}~
+    \faGithub~\href{https://github.com/Harjotraith04/Time_Table_Generation_AI_Tool}{Github}~%
+    \faGlobe~\href{https://timetable-frontend-psi.vercel.app/}{Website}~%
+    \faYoutube~\href{https://youtu.be/HOQBrz_d8fI?si=mKR9ZkzMCdUY1DcX}{Youtube}
+\end{twocolentry}
+
+\vspace{0.10 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Created a GA/CSP/backtracking-based optimized timetable generator with RAG for quick class and faculty lookup.
+        \item Tools Used: React, Vite, Tailwind CSS, MUI, Axios, Node.js, Express.js, MongoDB, Gemini AI, Vercel, Render.
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2 cm}
+
+\begin{twocolentry}{
+    \textbf{(Gujarat Robofest'25)}
+}
+    \textbf{Biros: Bio-Inspired Robotic Snake}~
+    \faGithub~\href{https://github.com/Harjotraith04/Robotic-Snake}{Github}~%
+    \faYoutube~\href{https://youtu.be/rBAIBMQLFJA?si=zjd_w4SYrGHXlru9}{Youtube}
+\end{twocolentry}
+
+\vspace{0.10 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Created an autonomous robotic snake using CNNs, kinematics, and LiDAR for detection in confined and disaster areas.
+        \item Tools Used: ESP32, Servo Motor MG995, VL53L0X, LiDAR Sensors, OpenCV, Inverse and Forward Kinematics.
+    \end{highlights}
+\end{onecolentry}
+         
+
+        \section{\href{https://www.harjot.info/\#Achievements}{ACHIEVEMENTS \& AWARDS}}
+
+\begin{onecolentry}
+    \textbf{2nd Place --- VOIS International Hackathon 2024 by Vodafone} \hfill
+    \href{https://drive.google.com/drive/folders/1iAM-mW90riDdtIffdLflbHKzxa-PJVyi?usp=sharing}{\textbf{Certificate}} \\
+    \quad Secured 2\textsuperscript{nd} place out of 8000+ teams from India, Romania \& Egypt • Awarded €4,000
+\end{onecolentry}
+
+\vspace{0.04cm}
+
+\begin{onecolentry}
+    \textbf{Judges' Choice Award --- eYIC 2023-24 Finals, IIT Bombay} \hfill
+    \href{https://drive.google.com/file/d/1oG1jKMsQmqKw4ZLALATirmeHcBpnrcL3/view?usp=sharing}{\textbf{Certificate}} \\
+    \quad Competed out of 299 teams in the finale  • Awarded INR 50,000
+\end{onecolentry}
+
+\vspace{0.04cm}
+
+\begin{onecolentry}
+    \textbf{Top 10 Finalist --- ROBOFEST GUJARAT 4.0 COMPETITION, Science City Ahmedabad} \hfill
+    \href{https://drive.google.com/file/d/1z6nXmmgFPRkmLrr91ICkaF7T_WwUkomG/view?usp=sharing}{\textbf{Certificate}} \\
+    \quad Top 10 teams out of 5000+ teams  • Awarded INR 2,50,000 for proof-of-concept and prototyping
+\end{onecolentry}
+
+\vspace{0.04cm}
+
+\begin{onecolentry}
+    \textbf{3rd Place --- Smart Innovation Model Challenge (BASIC 4.0), VES Business School} \hfill
+    \href{https://drive.google.com/file/d/1gR_DHY5O-q7P53vYykIHqebSZ0Y9dERi/view?usp=sharing}{\textbf{Certificate}} \\
+    \quad Secured 3\textsuperscript{rd} place out of 50+ teams • Awarded INR 15,000
+\end{onecolentry}
+
+\vspace{0.04cm}
+
+\begin{onecolentry}
+    \textbf{3rd Place --- Startup Pitch Competition (BASIC 4.0), VES Business School} \hfill
+    \href{https://drive.google.com/file/d/1gR_DHY5O-q7P53vYykIHqebSZ0Y9dERi/view?usp=sharing}{\textbf{Certificate}} \\
+    \quad Secured 3\textsuperscript{rd} place out of 80+ teams • Awarded INR 15,000
+\end{onecolentry}
+
+\vspace{0.04cm}
+
+\begin{onecolentry}
+    \textbf{Consolation Prize --- 9th Multidisciplinary International Conference, Mumbai} \hfill
+    \href{https://drive.google.com/file/d/1wo1nbaIiHtBG5m1MeAhg4zIopDcyNx8F/view?usp=sharing}{\textbf{Certificate}} \\
+    \quad Paper on LLMs for Indian vernacular speech recognition
+\end{onecolentry}
+
+\vspace{0.04cm}
+
+\begin{onecolentry}
+    \textbf{Multiple Hackathon Wins} \hfill
+    \href{https://drive.google.com/drive/folders/1Tsof25XI__cUZ2ZIg0Da_J6JF_640j-u?usp=sharing}{\textbf{All Certificates}} \\
+    \quad 30+ hackathons • 8 wins + numerous awards
+\end{onecolentry}
+
+    \section{\href{https://www.harjot.info/\#Skills}{TECHNICAL SKILLS}}
+        
+        
+        \begin{onecolentry}
+            \textbf{Languages:} Python, CUDA, Shell, LaTeX, C, C++, Java, SQL, JavaScript, TypeScript.
+        \end{onecolentry}
+
+        \vspace{0.1 cm}
+
+        \begin{onecolentry}
+            \textbf{Dev Tools:} Linux, AWS, GCP, Docker, Kubernetes, Hugging Face, Wandb, Overleaf, GitHub.
+        \end{onecolentry}
+        
+        \vspace{0.1 cm}
+
+        \begin{onecolentry}
+            \textbf{Frameworks:} TensorFlow, PyTorch, FastAPI, Flask, OpenCV, Langchain, Streamlit, Keras, Selenium.
+
+        \end{onecolentry}
+         \vspace{0.1 cm}
+
+        \begin{onecolentry}
+            \textbf{Relevant Coursework:} Deep Learning, Machine Learning,  Discrete Mathematics, Probability and Statistics, Computer Networks, Cryptography and Network Security, Data Structures \& Algorithms and Object Oriented Programming (OOP).
+
+        \end{onecolentry}
+         
+
+\section{\href{https://www.harjot.info/\#Education}{COURSES \& CERTIFICATIONS}}
+
+\begin{onecolentry}
+    \textbf{Cloud Computing} | NPTEL, IIT Kharagpur
+    \hfill \href{https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS89S54230011820182506}{\textbf{Certificate}}
+\end{onecolentry}
+
+\vspace{0.04cm}
+
+\begin{onecolentry}
+    \textbf{Generative AI Language Modeling with Transformers} | IBM
+    \hfill \href{https://coursera.org/share/ee8a77455390270956277a2c6f41b1f1}{\textbf{Certificate}}
+\end{onecolentry}
+
+\vspace{0.04cm}
+\begin{onecolentry}
+    \textbf{Introduction to Generative AI} | Google Cloud
+    \hfill \href{https://coursera.org/share/3e21bb2fa9795f31283d4193b29809c5}{\textbf{Certificate}}
+\end{onecolentry}
+
+
+\vspace{0.04cm}
+
+\begin{onecolentry}
+    \textbf{Applied ChatGPT for Cybersecurity} | Infosec
+    \hfill \href{https://coursera.org/share/7f136e182829680e0a2a253c100a236c}{\textbf{Certificate}}
+\end{onecolentry}
+
+\vspace{0.04cm}
+\begin{onecolentry}
+    \textbf{AI Workflow: Enterprise Model Deployment} | IBM
+    \hfill \href{https://coursera.org/share/56698a1a21fcf57504960591141a5cc0}{\textbf{Certificate}}
+\end{onecolentry}
+
+
+\vspace{0.04cm}
+
+\begin{onecolentry}
+    \textbf{Foundation of AI and Machine Learning} | Microsoft
+    \hfill \href{https://coursera.org/share/98c2dd20e53277df4713b475206964f6}{\textbf{Certificate}}
+\end{onecolentry}
+
+\vspace{0.04cm}
+
+
+\begin{onecolentry}
+    \textbf{Python Fundamentals} | DataCamp
+    \hfill \href{https://www.datacamp.com/completed/statement-of-accomplishment/track/51765a61a3aff9842fe8856a5bed7d336bb5f627}{\textbf{Certificate}}
+\end{onecolentry}
+
+\vspace{0.04cm}
+
+\begin{onecolentry}
+    \textbf{SQL Fundamentals} | DataCamp
+    \hfill \href{https://www.datacamp.com/statement-of-accomplishment/track/956081f0c68a4da735f93ee2177ced96b2b21500?raw=1}{\textbf{Certificate}}
+\end{onecolentry}
+
+\section{\href{https://www.harjot.info/\#Education}{TEACHING EXPERIENCE}}
+
+\begin{twocolentry}{
+    \textbf{July 2024 - July 2025}}
+    \textbf{Technical Workshop Instructor} | \textit{NMIMS Robotics Club, Navi Mumbai}
+\end{twocolentry}
+
+\vspace{0.10 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Conducted workshops on Git, embedded systems, full-stack architecture, and ML-based RAG pipelines for all engineering students .
+        \item Organized \textbf{"Open Source to Deployment: A Full-Stack Journey"} workshop series, providing hands-on mentorship in robotics, applied AI, and deployment workflows. Promoted open-source contribution and collaborative development through technical training sessions
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2 cm}
+
+\begin{twocolentry}{
+    \textbf{Volunteer}}
+    \textbf{Mathematics \& Science Tutor} | \textit{Ma Niketan NGO, Thane}
+\end{twocolentry}
+
+\vspace{0.10 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Taught mathematics and science to underprivileged students, focusing on foundational concepts and problem-solving skills. Developed engaging lesson plans to improve student comprehension and academic performance in STEM subjects
+    \end{highlights}
+\end{onecolentry}
+
+
+
+
+
+
+    \section{\href{https://www.harjot.info/\#Education}{EXTRACURRICULAR ACTIVITIES}}
+
+\begin{twocolentry}{
+    
+    \textbf{July 2024 - July 2025}}
+    \textbf{Head of the Robotics Club} | \textit{NMIMS Navi Mumbai}
+\end{twocolentry}
+
+\vspace{0.10 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Led a team of 50+ members in organizing technical workshops and robotics competitions; coordinated inter-college events to promote STEM education and hands-on learning experiences
+    \end{highlights}
+\end{onecolentry}
+
+\vspace{0.2 cm}
+
+\begin{twocolentry}{
+    \textbf{Sept 2022 - Jan 2023}}
+    \textbf{Core Member of the Manthan Club} | \textit{NMIMS Navi Mumbai}
+\end{twocolentry}
+
+\vspace{0.10 cm}
+\begin{onecolentry}
+    \begin{highlights}
+        \item Collaborated with team members to organize cultural and technical events; contributed to event planning, logistics, and execution to enhance student engagement and participation
+    \end{highlights}
+\end{onecolentry}
+        
+
+
+\end{document}
