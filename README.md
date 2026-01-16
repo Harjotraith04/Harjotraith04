@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey%2C+I'm+Harjot+Singh+Raith!+%F0%9F%91%8B;Research+Intern+%40+IIT+Bombay;AI+%26+Data+Science+Undergraduate;Robotics+Club+Head+%7C+Hackathon+Winner;Building+AI+Systems+%26+LLM+Applications" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Hey%2C+I'm+Harjot+Singh+Raith!+%F0%9F%91%8B;AI+Backend+Engineer+%40+Paloma+POS;Former+Research+Intern+%40+IIT+Bombay+(2x);AI+%26+Data+Science+Undergraduate;Published+Researcher+%7C+Hackathon+Champion;Building+Production+RAG+Pipelines+%26+AI+Systems" alt="Typing SVG" />
 </div>
 
 <p align="center">
@@ -9,11 +9,14 @@
   <a href="https://www.instagram.com/bass_karr_harjot/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
-  <a href="mailto:harjots.raith@gmail.com">
+  <a href="mailto:harjotraith47@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://harjot.info">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"/>
+  </a>
+  <a href="https://github.com/Harjotraith04">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
 
@@ -23,85 +26,143 @@
 </p>
 
 <br>
- 🚀 About Me
+
+## 🚀 About Me
 
 <img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding gif"/>
 
-Hi, I'm **Harjot Singh Raith**, an AI and Data Science undergraduate at **NMIMS Navi Mumbai** (CGPA: 3.2/4.0) specializing in **AI systems, Large Language Models, qualitative research automation, and intelligent scheduling systems**.
+Hi, I'm **Harjot Singh Raith**, an AI and Data Science undergraduate at **NMIMS Navi Mumbai** (CGPA: 3.2/4.0) specializing in **production-grade AI systems, RAG pipelines, Large Language Models, and intelligent scheduling systems**.
 
-### 🎯 Professional Summary
-- 🔬 **Research Experience**: 2+ research internships at IIT Bombay with published work
-- 🏆 **Track Record**: 8+ hackathon wins across 20+ competitions (national & international)
-- 💡 **Innovation**: Built production-ready AI systems serving real-world use cases
-- 🎓 **Leadership**: Head of Robotics Club, mentoring 50+ students
-- 📊 **Impact**: Developed tools processing 100K+ educational interaction logs
+Currently working as an **AI Backend Engineer (Intern) at Paloma POS, USA** 🇺🇸, where I design and implement end-to-end production RAG pipelines with **Dify workflows**, **OpenAI embeddings**, and **Qdrant** vector databases, integrated through a centralized **AI Gateway (Golang)**.
 
-### 🔬 Research Experience
-
-**Research Intern @ IIT Bombay** (eYantra, eRTS Lab) | *June 2025 - Present*
-- Developing **LLM-based tools for Thematic Analysis** processing multi-format documents (PDF, DOCX, audio transcripts)
-- Engineering **FastAPI-PostgreSQL backend** with automated codex generation reducing research time by 60%
-- Designed **React-based research platform** with real-time visualizations, serving 100+ researchers
-- Implemented **RAG pipelines** for intelligent document retrieval and summarization
-
-**Research Intern @ IIT Bombay** (eYantra, eRTS Lab) | *May 2024 - July 2024*
-- Analyzed **100K+ interaction logs** from educational platforms using Python, advanced OCR, and ML models
-- Identified critical **resource-access patterns** improving platform engagement by 35%
-- Built **predictive models** for user behavior with 87% accuracy using scaffold analysis techniques
-- Created **comprehensive data visualizations** enabling data-driven decision making for educators
-
-### 📝 Publications & Research Papers
-
-- 📄 **Video Analysis and OCR Techniques for Collaborative Problem-Solving** (May 2024 - Dec 2024)
-  - *Published research on educational technology and collaborative learning*
-- 📄 **YTubeRAG: Leveraging YouTube Content for Enhanced LLM Training** (Nov 2024 - May 2025)
-  - *Novel RAG approach for training LLMs using video transcripts*
-- 📄 **AI-Driven Timetable Generation and Optimization Based Scheduling** *(Accepted for Publication, Jan 2025)*
-  - *Intelligent scheduling system using constraint optimization and ML*
-
-### 🏆 Achievements & Recognition
-
-- 🥇 **Judges' Choice Award** - eYIC 2023-24 Finals, IIT Bombay (Top 0.2% among 503 teams)
-- 🥈 **2nd Place** - VOIS International Hackathon 2024 (India, Romania, Egypt)
-- 🏅 **8+ Hackathon Wins** across 20+ national & international competitions
-- 👨‍💼 **Head of Robotics Club** - NMIMS Navi Mumbai (Managing 50+ members, July 2024 - Present)
-- 🎯 **Competition Success Rate**: 40% win rate in competitive hackathons
+### 🎯 Professional Highlights
+- 🔬 **Research**: 2x Research Intern at IIT Bombay (eYantra Lab) with **3 published/accepted papers**
+- 🏆 **Competitions**: **8+ hackathon wins** across 30+ national & international competitions
+  - 🥈 2nd Place - VOIS International Hackathon (€4,000 prize)
+  - 🏅 Judges' Choice Award - eYIC Finals, IIT Bombay (₹50,000 prize)
+  - 🎖️ Top 10 - ROBOFEST GUJARAT 4.0 (₹2,50,000 for prototyping)
+- 💡 **Impact**: Built production AI systems serving real-world use cases in ed-tech, maritime intelligence & scheduling
+- 🎓 **Leadership**: Head of Robotics Club at NMIMS (mentoring 50+ students, organizing technical workshops)
+- 📊 **Scale**: Processed 100K+ educational interaction logs, built multi-tenant knowledge bases
 
 <br clear="right"/>
 
 ---
 
+## 💼 Experience
+
+### 🏢 **AI Backend Engineer (Intern)** | *Paloma POS, USA* (Remote)
+**Dec 2025 - Present**
+
+- Designed and implemented end-to-end **production-grade RAG pipelines** using **Dify workflows**, integrated with a centralized **AI Gateway (Golang)**
+- Implemented **low-latency, scalable semantic search** using **OpenAI embeddings** and **Qdrant vector database**, managing large-scale vector data and retrieval
+- Designed robust **multi-tenant knowledge base ingestion** and AI data infrastructure
+- Built automated **web scraping, document chunking, embedding lifecycle management**, and secure data isolation systems
+- **Tech Stack**: Dify, Golang, OpenAI API, Qdrant, Python, Docker, AWS
+
+### 🔬 **e-Yantra Research Intern** | *IIT Bombay (eRTS Lab)*
+**May 2025 - July 2025**
+
+- Developed a **full-stack AI-driven Thematic Analysis platform** for multi-format document processing (PDF, DOCX, audio transcripts) with automated inductive and deductive coding
+- Built a **FastAPI-PostgreSQL backend** integrated with **LLM-based agents** to generate codes, themes, and structured research reports
+- Designed a **React/MUI frontend** with interactive visualizations, including **Sankey diagrams**, delivering an end-to-end **Qualitative Research tool** for accelerated insight extraction
+- **Impact**: Reduced manual coding time by 60%, serving 100+ researchers
+- **Tech Stack**: Python, FastAPI, PostgreSQL, React, MUI, LangChain, OpenAI API
+
+### 🔬 **e-Yantra Research Intern** | *IIT Bombay (eRTS Lab)*
+**May 2024 - July 2024** | [Certificate](https://drive.google.com/file/d/1ynuYG4gYFt-YiOApBXfypSoxRymzO6dS/view?usp=sharing)
+
+- Analyzed **large-scale user interaction logs** (100K+ entries) using **Python**, leveraging **Google OCR** for video log generation and **CNNs** to detect and filter low-quality videos
+- Collected, cleaned, and integrated log data via **REST APIs** from a **Laravel-based platform** to measure scaffold availability and user dwell time
+- Applied **data visualization and behavioral analytics** to optimize scaffolding and user engagement using clustering, heatmaps, sequence analysis, and predictive modeling (87% accuracy)
+- **Published research** presented at Annual ACM India Compute Conference (Compute 2024), Springer Nature
+- **Tech Stack**: Python, TensorFlow, OpenCV, Google OCR, Pandas, Matplotlib
+
+---
+
+## 📝 Publications & Research Papers
+
+### 📄 [Enhancing and analyzing log generation for Collaborative Problem-Solving activities](https://link.springer.com/chapter/10.1007/978-3-031-84391-4_11)
+**Published** | *Annual ACM India Compute Conference (Compute 2024), CCIS vol. 2400, Springer Nature*
+- **Authors**: Suprabha Jadhav, Parth Jain, **Harjot Singh Raith**, Sridhar Iyer, Kavi Arya
+- Video analysis and OCR techniques for educational technology and collaborative learning
+
+### 📄 [YTubeRAG: Leveraging YouTube Content for Enhanced LLM Training with Optimized Vector Space Retrieval](https://drive.google.com/file/d/1OGv0QIKzG9IgbJINtoNc8RhLQ6HJT8bL/view?usp=drive_link)
+**Presented** | *NTAI 2025, CRC Press (Taylor & Francis Group), Scopus-indexed*
+- **Authors**: **Harjot Singh Raith**, Kartikeya Mudliyar, Ishika Mohan, Aditya Kasar, Sakshi Indolia
+- Novel RAG approach for training LLMs using YouTube video transcripts and optimized retrieval
+
+### 📄 AI-Driven Timetable Generation and Optimization using Constraint-Based Scheduling
+**Accepted for Publication** | *IEEE ICESIC 2026 Conference Proceedings*
+- **Authors**: **Harjot Singh Raith**, Kartikeya Mudliyar, Toral Shah
+- Intelligent scheduling system using constraint optimization algorithms and ML
+
+
+
+---
+
 ## 💼 Featured Projects
 
-### 🔴 [LiveWire](https://github.com/Harjotraith04/LiveWire) - Real-time Collaborative Code Editor *(AWS Global Vibe )*
-**Impact**: Real-time code compilation platform with AI-powered assistance
-- Built **collaborative IDE** supporting 10+ programming languages with real-time synchronization
-- Integrated **Gemini AI** for intelligent code suggestions and debugging assistance
-- Implemented **WebSocket architecture** enabling seamless multi-user collaboration
-- **Tech Stack**: Monaco Editor, Socket.IO, Express.js, MongoDB, Clerk Auth, Vercel
+### 🔴 [LiveWire](https://github.com/Harjotraith04/LiveWire) - Real-time Code Compiler *(AWS Global Vibe)*
+[🔗 Website](https://live-wire-cn.vercel.app/) | [📺 Demo](https://www.youtube.com/watch?v=NBiqMB7ju38)
 
-### 🤖 [ArgoMind AI](https://github.com/Harjotraith04/ArgoMind-AI) - Maritime Intelligence System *(SIH'25 - Runner Up)*
-**Impact**: AI-powered ship targeting and ocean disaster prediction system
-- Developed **automated ship targeting** system processing real-time Argo oceanographic data
-- Built **ML models** for ocean disaster prediction with 85%+ accuracy
-- Created **real-time dashboards** with React visualizing maritime patterns and threats
-- Implemented **RAG system** for intelligent maritime data retrieval and analysis
-- **Tech Stack**: Flask, React, FastAPI, Docker, Gemini API, PostgreSQL
+**Impact**: Real-time code compilation platform for developers with AI assistance
+- Built a real-time **code-compiler platform** supporting **10+ programming languages** using **Monaco Editor**, **WebSockets**, and **Gemini AI**
+- Implemented **collaborative IDE** with seamless multi-user synchronization for pair programming
+- Integrated **AI-powered code suggestions and debugging** assistance
+- **Tech Stack**: TypeScript, Vite, Tailwind CSS, Monaco Editor, Socket.IO, Express, Node.js, CodeMirror, Gemini API, Vercel, Railway
 
-### 📅 [TimeTableAI](https://github.com/Harjotraith04/Time_Table_Generation_AI_Tool) - Intelligent TimeTable Scheduling & Optimization Platform *(Capstone Project)*
+### 🌊 [ArgoMindAI](https://github.com/Harjotraith04/Argo_Mind_SIH) - Argo Float Dashboard & MapBot *(SIH'25 - Smart India Hackathon)*
+[🔗 Website](https://argo-mind-sih.vercel.app) | [📺 Demo](https://youtu.be/STzxNc0rvqY?si=Qd_6mYhq0xFp1jU4)
+
+**Impact**: AI-powered maritime intelligence system with ML-driven ocean disaster predictions
+- Developed an **automated pipeline** to ingest FTP raw files, store them in **AWS S3**, and generate a sequential schema for real-time dashboards
+- Built a **map-based RAG system** using Argo oceanographic data with **ML-driven ocean disaster predictions** (85%+ accuracy)
+- Created **interactive dashboards** with **React and Leaflet.js** visualizing maritime patterns and threats
+- **Tech Stack**: React, Python (UV), FastAPI, Xarray, Tailwind CSS, Leaflet.js, AWS S3, AlloyDB, Docker, Gemini API
+
+### 📅 [AlmanacAI](https://github.com/Harjotraith04/Time_Table_Generation_AI_Tool) - Timetable Generation & Optimization *(Capstone Project)*
+[🔗 Website](https://timetable-frontend-psi.vercel.app/) | [📺 Demo](https://youtu.be/HOQBrz_d8fI?si=mKR9ZkzMCdUY1DcX)
+
 **Impact**: Automated timetable generation reducing manual scheduling time by 90%
-- Engineered **constraint optimization algorithms** handling 1000+ scheduling variables
-- Built **RAG-powered system** for instant retrieval of scheduling policies and rules
-- Developed **full-stack platform** with React frontend and FastAPI backend
-- Integrated **LLM capabilities** for natural language scheduling requests
-- **Tech Stack**: FastAPI, MongoDB, React, Vite, TailwindCSS, Docker, Gemini AI
+- Created a **GA/CSP/backtracking-based** optimized timetable generator handling 1000+ scheduling variables
+- Built **RAG system** for quick class and faculty lookup using natural language queries
+- Developed **full-stack platform** with constraint optimization algorithms
+- **Tech Stack**: React, Vite, Tailwind CSS, MUI, Axios, Node.js, Express.js, MongoDB, Gemini AI, Vercel, Render
 
-### 🐍 [BIROS](https://github.com/Harjotraith04/Robotic-Snake) - Bio-Inspired Robotic Snake *(Gujarat Robofest'25 - Winner)*
+### 🐍 [BIROS](https://github.com/Harjotraith04/Robotic-Snake) - Bio-Inspired Robotic Snake *(Gujarat Robofest'25)*
+[📺 Demo](https://youtu.be/rBAIBMQLFJA?si=zjd_w4SYrGHXlru9)
+
 **Impact**: Autonomous search & rescue robot for confined space exploration
-- Designed **serpentine robot** using inverse kinematics for realistic snake-like movement
-- Implemented **CNN-based object detection** for autonomous navigation in tight spaces
+- Created an **autonomous robotic snake** using **CNNs**, **inverse kinematics**, and **LiDAR** for detection in confined and disaster areas
+- Implemented **serpentine locomotion** with realistic snake-like movement using forward and inverse kinematics
 - Integrated **LiDAR sensors** for real-time environment mapping and obstacle avoidance
-- **Tech Stack**: ESP32, OpenCV, Python, TensorFlow, VL53L0X LiDAR, Servo Motors
+- **Tech Stack**: ESP32, Servo Motor MG995, VL53L0X LiDAR Sensors, OpenCV, Python, TensorFlow, Inverse & Forward Kinematics
+
+---
+
+## 🏆 Achievements & Awards
+
+🥈 **2nd Place - VOIS International Hackathon 2024 by Vodafone** | [Certificate](https://drive.google.com/drive/folders/1iAM-mW90riDdtIffdLflbHKzxa-PJVyi?usp=sharing)  
+   Secured 2nd place out of 8000+ teams from India, Romania & Egypt • Awarded **€4,000**
+
+🏅 **Judges' Choice Award - eYIC 2023-24 Finals, IIT Bombay** | [Certificate](https://drive.google.com/file/d/1oG1jKMsQmqKw4ZLALATirmeHcBpnrcL3/view?usp=sharing)  
+   Competed out of 299 teams in the finale • Awarded **₹50,000**
+
+🎖️ **Top 10 Finalist - ROBOFEST GUJARAT 4.0, Science City Ahmedabad** | [Certificate](https://drive.google.com/file/d/1z6nXmmgFPRkmLrr91ICkaF7T_WwUkomG/view?usp=sharing)  
+   Top 10 teams out of 5000+ teams • Awarded **₹2,50,000** for proof-of-concept and prototyping
+
+🥉 **3rd Place - Smart Innovation Model Challenge (BASIC 4.0), VES** | [Certificate](https://drive.google.com/file/d/1gR_DHY5O-q7P53vYykIHqebSZ0Y9dERi/view?usp=sharing)  
+   Secured 3rd place out of 50+ teams • Awarded **₹15,000**
+
+🥉 **3rd Place - Startup Pitch Competition (BASIC 4.0), VES** | [Certificate](https://drive.google.com/file/d/1gR_DHY5O-q7P53vYykIHqebSZ0Y9dERi/view?usp=sharing)  
+   Secured 3rd place out of 80+ teams • Awarded **₹15,000**
+
+🏅 **Consolation Prize - 9th Multidisciplinary International Conference, Mumbai** | [Certificate](https://drive.google.com/file/d/1wo1nbaIiHtBG5m1MeAhg4zIopDcyNx8F/view?usp=sharing)  
+   Paper on LLMs for Indian vernacular speech recognition
+
+🎯 **Multiple Hackathon Wins** | [All Certificates](https://drive.google.com/drive/folders/1Tsof25XI__cUZ2ZIg0Da_J6JF_640j-u?usp=sharing)  
+   **30+ hackathons** participated • **8 wins** + numerous awards • **40% win rate**
 
 ---
 
@@ -142,7 +203,70 @@ Hi, I'm **Harjot Singh Raith**, an AI and Data Science undergraduate at **NMIMS 
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 
+### 📖 Relevant Coursework
+**Deep Learning** • **Machine Learning** • **Discrete Mathematics** • **Probability and Statistics** • **Computer Networks** • **Cryptography and Network Security** • **Data Structures & Algorithms** • **Object Oriented Programming (OOP)**
+
 </div>
+
+---
+
+## 🎓 Education
+
+**Narsee Monjee Institute of Management and Studies (NMIMS), Navi Mumbai**  
+*B.Tech in Artificial Intelligence and Data Science*  
+**July 2022 – April 2026** | **CGPA: 3.2/4.0**
+
+**Shubham Raje Junior College, Thane**  
+*Maharashtra State Board, Science*  
+**June 2020 – May 2022** | **Grade (12th): 85.83%**
+
+**New Horizon Scholars School, Thane**  
+*Central Board of Secondary Education (CBSE)*  
+**May 2015 – April 2020** | **Grade (10th): 90.40%**
+
+---
+
+## 📜 Courses & Certifications
+
+- 🎓 **Cloud Computing** | NPTEL, IIT Kharagpur | [Certificate](https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL23CS89S54230011820182506)
+- 🤖 **Generative AI Language Modeling with Transformers** | IBM | [Certificate](https://coursera.org/share/ee8a77455390270956277a2c6f41b1f1)
+- 🌐 **Introduction to Generative AI** | Google Cloud | [Certificate](https://coursera.org/share/3e21bb2fa9795f31283d4193b29809c5)
+- 🔒 **Applied ChatGPT for Cybersecurity** | Infosec | [Certificate](https://coursera.org/share/7f136e182829680e0a2a253c100a236c)
+- 📊 **AI Workflow: Enterprise Model Deployment** | IBM | [Certificate](https://coursera.org/share/56698a1a21fcf57504960591141a5cc0)
+- 🧠 **Foundation of AI and Machine Learning** | Microsoft | [Certificate](https://coursera.org/share/98c2dd20e53277df4713b475206964f6)
+- 🐍 **Python Fundamentals** | DataCamp | [Certificate](https://www.datacamp.com/completed/statement-of-accomplishment/track/51765a61a3aff9842fe8856a5bed7d336bb5f627)
+- 📊 **SQL Fundamentals** | DataCamp | [Certificate](https://www.datacamp.com/statement-of-accomplishment/track/956081f0c68a4da735f93ee2177ced96b2b21500?raw=1)
+
+---
+
+## 👨‍🏫 Teaching & Leadership Experience
+
+### **Technical Workshop Instructor** | *NMIMS Robotics Club, Navi Mumbai*
+**July 2024 - July 2025**
+- Conducted workshops on **Git**, **embedded systems**, **full-stack architecture**, and **ML-based RAG pipelines** for all engineering students
+- Organized **"Open Source to Deployment: A Full-Stack Journey"** workshop series
+- Provided hands-on mentorship in **robotics**, **applied AI**, and **deployment workflows**
+- Promoted open-source contribution and collaborative development through technical training sessions
+
+### **Mathematics & Science Tutor (Volunteer)** | *Ma Niketan NGO, Thane*
+- Taught **mathematics and science** to underprivileged students
+- Focused on foundational concepts and problem-solving skills
+- Developed engaging lesson plans to improve student comprehension and academic performance in STEM subjects
+
+---
+
+## 🎭 Extracurricular Activities
+
+### **Head of the Robotics Club** | *NMIMS Navi Mumbai*
+**July 2024 - July 2025**
+- Led a team of **50+ members** in organizing technical workshops and robotics competitions
+- Coordinated inter-college events to promote STEM education and hands-on learning experiences
+- Managed club operations, event planning, and technical mentorship programs
+
+### **Core Member of the Manthan Club** | *NMIMS Navi Mumbai*
+**Sept 2022 - Jan 2023**
+- Collaborated with team members to organize cultural and technical events
+- Contributed to event planning, logistics, and execution to enhance student engagement and participation
 
 ---
 
@@ -293,10 +417,12 @@ Hi, I'm **Harjot Singh Raith**, an AI and Data Science undergraduate at **NMIMS 
 - Challenging AI/ML projects with real-world impact
 - Speaking engagements and technical workshops
 
-**📧 Contact:** [harjots.raith@gmail.com](mailto:harjots.raith@gmail.com)  
+**📧 Contact:** [harjotraith47@gmail.com](mailto:harjotraith47@gmail.com)  
+**📞 Phone:** [+91-9321642540](tel:+91-9321642540)  
 **💼 LinkedIn:** [Harjot Singh Raith](https://www.linkedin.com/in/harjot-singh-raith-779a7028b/)  
 **🌐 Portfolio:** [harjot.info](https://harjot.info)  
-**📄 Resume:** [Download CV](./Harjot_Singh_Raith_CV.pdf)
+**📄 Resume:** [Download CV](./Harjot_Singh_Raith_CV.pdf)  
+**📍 Location:** Thane, Maharashtra, India
 
 **⏰ Availability:** Immediate (Ready to start within 2 weeks)
 
